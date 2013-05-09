@@ -1,0 +1,17 @@
+---
+layout: default
+title: Fiona Bradley
+---
+
+<div id="home">
+	<h1>Hi!</h1>
+<p>
+I'm a librarian currently working in capacity building and international development. My interests and experience include association governance, publishing, Open Access, technology (especially ICTD), web services and access to information. Find out more about me on this site.
+</p>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</ul>
+</div>
